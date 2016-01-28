@@ -5,10 +5,24 @@ $text-color: #46433A;
 $anchor-text-color: #CE534D;
 $background-color: #F1EED9;
 
+@font-face{
+	font-family: 'Naive Bold';
+	src: url('naive-bold-webfont.eot');
+	src: url('naive-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('naive-bold-webfont.woff') format('woff'),
+		url('naive-bold-webfont.woff2') format('woff2'),
+		url('naive-bold-webfont.ttf') format('truetype'),
+		url('naive-bold-webfont.svg#webfont') format('svg');
+}
+
 body {
 	font-family: 'Vollkorn', serif;
 	color: $text-color;
 	background-color: $background-color;
+}
+
+h1, h2, h3 {
+	font-family: 'Naive Bold', serif;
 }
 
 header,
