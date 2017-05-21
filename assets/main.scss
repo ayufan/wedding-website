@@ -74,7 +74,7 @@ since it must be aligned with the content */
 }
 
 .logo {
-	width: 192px;
+	width: 180px;
 	height: 192px;
 	display: inline-block;
 	background-size: cover;
@@ -126,7 +126,7 @@ footer {
 	/* wrapper stays 480px wide past 480px wide and is kept centered */
 	.wrapper {
 		width: 480px;
-		margin: 10% auto 0 auto;
+		margin: 2% auto 0 auto;
 	}
 }
 
@@ -149,12 +149,12 @@ footer {
 	.author-container h1,
 	.logo-container,
 	.tagline-container p {
-		text-align: right;
+		text-align: center;
 	}
 
 	main {
 		width: 46%;
-		margin-left: 54%;
+		margin-left: 28%;
 		padding: 0;
 	}
 }
